@@ -1,1 +1,5 @@
-# rs-latlon-replace
+# rs latlon replace
+
+## LICENSE
+
+MIT
