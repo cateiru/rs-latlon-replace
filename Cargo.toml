@@ -1,5 +1,5 @@
 [package]
-name = "rs-latlon-replace"
+name = "rs_latlon"
 version = "0.1.0"
 authors = ["Yuto Watanabe <yuto.w51942@gmail.com>"]
 edition = "2018"
