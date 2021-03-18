@@ -28,7 +28,7 @@ Please write in `cargo.toml`.
 
 ```toml
 [dependencies]
-rs_latlon = { git = "https://github.com/yuto51942/rs-latlon-replace" }
+rs_latlon = { git = "https://github.com/yuto51942/rs-latlon-replace", branch="main" }
 ```
 
 ## LICENSE
