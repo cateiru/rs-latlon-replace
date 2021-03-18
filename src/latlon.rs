@@ -90,7 +90,7 @@ impl Location {
     })
   }
 
-  /// Convert xy to latlon.
+  /// Convert canvas location to latlon.
   ///
   /// ### Arguments
   ///
@@ -101,7 +101,7 @@ impl Location {
   ///
   /// - `lat` - lat.
   /// - `lon` - lon.
-  pub fn from_xy(&self, x: f64, y: f64) -> Result<(f64, f64), ParseError> {
+  pub fn from_canvas(&self, x: f64, y: f64) -> Result<(f64, f64), ParseError> {
     if x > self.width as f64 {
       return Err(ParseError::OutOfRange(self.width, x));
     }
@@ -115,7 +115,7 @@ impl Location {
     ))
   }
 
-  /// Convert latlon to xyz.
+  /// Convert latlon to canvas location.
   ///
   /// ### Arguments
   ///

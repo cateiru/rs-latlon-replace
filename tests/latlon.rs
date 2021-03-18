@@ -7,7 +7,7 @@ fn latlon_error() {
   assert_eq!(location.from_latlon(10.0, 10.0).unwrap(), (10.0, 10.0));
   assert_eq!(location.from_latlon(-80.0, 100.0).unwrap(), (100.0, 100.0));
 
-  assert_eq!(location.from_xy(100.0, 100.0).unwrap(), (-80.0, 100.0));
+  assert_eq!(location.from_canvas(100.0, 100.0).unwrap(), (-80.0, 100.0));
 }
 
 #[test]
