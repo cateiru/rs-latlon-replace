@@ -1,3 +1,3 @@
 mod latlon;
 
-pub use self::latlon::Location;
+pub use self::latlon::{Location, ParseError};
